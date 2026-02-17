@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!-- Use existing CSS files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 
+            LOGIN FORM
+            Target: Existing PHP Backend
+            Method: POST
+            Action: Placeholder URL (Replace with actual backend URL)
+            Note: This form submits directly to the PHP server. Upon success, 
+            the PHP script will handle the session and redirect to panel.php.
+        -->
+        <form action="https://example.com/login.php" class="form-signin" method="POST">
+            <h2 class="form-signin-heading">Please login</h2>
+
+            <input type="text" class="form-control" name="username" placeholder="Username" required autofocus />
+            <br>
+            <input type="password" class="form-control" name="password" placeholder="Password" required />
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
